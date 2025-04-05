@@ -1,0 +1,27 @@
+[project]
+name = "Comfyui-ppppeep"
+description = """
+A collection of nodes for ComyUI.
+- "PromptTermList (1-6)" nodes to help with the creation of Prompts.
+"""
+version = "1.0.0"
+license = {text = "MIT License"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["utility", "TermLists"]
+
+[project.urls]
+Repository = "https://github.com/ppppeep/ComfyUI-ppppeep"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ppppeep"
+DisplayName = "ComfyUI-ppppeep"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyjson5 = "1.6.8"
