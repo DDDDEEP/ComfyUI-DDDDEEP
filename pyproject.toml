@@ -1,5 +1,5 @@
 [project]
-name = "Comfyui-ppppeep"
+name = "Comfyui-DDDDEEP"
 description = """
 A collection of nodes for ComyUI.
 - "PromptTermList (1-6)" nodes to help with the creation of Prompts.
@@ -15,13 +15,12 @@ build-backend = "setuptools.build_meta"
 packages = ["utility", "TermLists"]
 
 [project.urls]
-Repository = "https://github.com/ppppeep/ComfyUI-ppppeep"
+Repository = "https://github.com/DDDDEEP/ComfyUI-DDDDEEP"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "ppppeep"
-DisplayName = "ComfyUI-ppppeep"
+PublisherId = "DDDDEEP"
+DisplayName = "ComfyUI-DDDDEEP"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pyjson5 = "1.6.8"
